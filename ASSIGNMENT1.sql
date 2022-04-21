@@ -69,8 +69,7 @@ ALTER Column FirstName nvarchar(40) NOT NULL;
 
 
 -- 5.Display all customer details
-ALTER TABLE Orders
-ALTER COLUMN OrderDate datetime NOT NULL;
+select * from customer;
 
 
 
